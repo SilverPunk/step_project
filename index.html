@@ -4,10 +4,569 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/main_logo.jpg">
   <title>JQuery-project</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kurale&display=swap" rel="stylesheet"> 
+  <script src="js/jquery.min.js"></script>
 </head>
 <body>
-  <h3>hello1</h3>
-  <h2>hello2</h2>
+  <header id="pageHeader">
+    <div class="container">
+      <a href="#" class="logo">Step Academy</a>
+      <nav>
+        <a href="#" class="link">about</a>
+        <a href="#" class="link">service</a>
+        <a href="#" class="link">work</a>
+        <a href="#" class="link">blog</a>
+        <a href="#" class="link">contact</a>
+        <a href="#"><img src="icons/ic_shop_two_white_36dp.png" alt="wallet"></a>
+        <a href="#"><img src="icons/ic_stars_white_36dp.png" alt=""></a>
+      </nav>
+    </div>
+  </header>
+  <!--background and title-->
+  <section id="firstScreen">
+    <img src="img/main_logo.jpg" alt="step_academy">
+    <div class="container">
+      <p class="description">Programming and Security</p>
+      <h1>Welcome <br>to US</h1>
+      <div class="separate"></div>
+      <a href="#">Learn More</a>
+    </div>
+    <div class="firstout"></div>
+  </section>
+  <section id="aboutUs">
+    <div class="container">
+      <p class="description">What we have</p>
+      <h1>Story about us</h1>
+      <div class="separate"></div>
+      <div class="more-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur assumenda nihil quos tempore nesciunt! Ratione deleniti fugiat reprehenderit amet at!</div>
+      <div class="lastest">
+        <article>
+          <img src="img/little_academy3.jpg" alt="step_academy" class="lazyloaded" data-src="img/little_academy3.jpg">
+          <div class="foreground">
+            <h2>
+              <img src="icons/ic_group_white_36dp.png" alt="">super team
+            </h2>
+          </div>
+        </article>
+        <article>
+          <img src="img/little_academy2.jpg" alt="step_academy" class="lazyloaded" data-src="img/little_academy2.jpg">
+          <div class="foreground">
+            <h2>
+              <img src="icons/ic_create_white_36dp.png" alt="">nice workspace
+            </h2>
+          </div>
+        </article>
+        <article>
+          <img src="img/academy.jpg" alt="step_academy" class="lazyloaded" data-src="img/academy.jpg">
+          <div class="foreground">
+            <h2>
+              <img src="icons/ic_weekend_white_36dp.png" alt="">pretty office
+            </h2>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!--aboutUS-->
+  <section id="infoLine">
+    <div class="container">
+      <div class="block">
+        <div>
+          <h2 class="num">142</h2>
+          <span>Web Design Projects</span>
+        </div>
+      </div>
+  
+      <div class="block">
+        <div>
+          <h2 class="num">220</h2>
+          <span>Happy Clients</span>
+        </div>
+      </div>
+
+      <div class="block">
+        <div>
+          <h2 class="num">45</h2>
+          <span>Award Winner</span>
+        </div>
+      </div>
+
+      <div class="block">
+        <div>
+          <h2 class="num">124</h2>
+          <span>Cup of Coffee</span>
+        </div>
+      </div>
+
+      <div class="block">
+        <div>
+          <h2 class="num">32</h2>
+          <span>Members</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--infoLine-->
+  <section id="service">
+    <div class="container">
+      <p class="description">What we do</p>
+      <h1>Story about us</h1>
+      <div class="separate"></div>
+    </div>
+    <div class="rows">
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_sentiment_very_satisfied_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2>Photography</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_whatshot_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2 class="title">Web Design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_cake_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2 class="title">Creativity</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+    </div>
+    <div class="separate fullscreen"></div>
+    <div class="rows">
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_security_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2 class="title">CyberSecurity</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_keyboard_hide_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2 class="title">Programming</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+      <article>
+        <div class="sidebar">
+          <img src="icons/ic_devices_other_black_36dp.png" alt="">
+        </div>
+        <div>
+          <h2 class="title">Digital</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+  <!--Accordion-->
+    <section id="whatWeDo">
+      <div class="container">
+        <p class="description">Service</p>
+        <h1>What we do</h1>
+        <div class="separate"></div>
+        <p class="more-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, corporis.
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, praesentium!</p>
+        <div class="list">
+          <div class="pic">
+            <img src="img/programmer.jpeg" alt="" class="lazyloaded" data-src="#">
+          </div>
+          <ul class="tabs">
+            <li class="">
+              <button class="tab">
+                <img src="icons/ic_wallpaper_black_36dp.png" alt="">
+                <span>Photography</span>
+              </button>
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quis amet delectus qui ipsum iusto adipisci est quae! Provident impedit et eligendi dignissimos temporibus labore saepe minus esse vel doloribus ipsa maxime assumenda, enim natus iste quaerat voluptates? Dicta, quas?</p>
+              </div>
+            </li>
+            <li class="">
+              <button class="tab">
+                <img src="icons/ic_security_black_36dp.png" alt="">
+                <span>CyberSecurity</span>
+              </button>
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quis amet delectus qui ipsum iusto adipisci est quae! Provident impedit et eligendi dignissimos temporibus labore saepe minus esse vel doloribus ipsa maxime assumenda, enim natus iste quaerat voluptates? Dicta, quas?</p>
+              </div>
+            </li>
+            <li class="">
+              <button class="tab">
+                <img src="icons/ic_stars_black_36dp.png" alt="">
+                <span>Web Design</span>
+              </button>
+              <div class="content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quis amet delectus qui ipsum iusto adipisci est quae! Provident impedit et eligendi dignissimos temporibus labore saepe minus esse vel doloribus ipsa maxime assumenda, enim natus iste quaerat voluptates? Dicta, quas?</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--Rewiews-->
+    <section id="reviews">
+      <div class="container">
+        <div id="leftControllReviews" class="controlls"><img src="./img/arrow_l.svg" alt="<"></div>
+  
+        <h2 class="review-icon">
+          What say about us
+          <img src="icons/ic_forum_black_36dp.png" alt="What say about us">
+        </h2>
+  
+        <div id="sliderQ">
+          <article class="reviewsSlide">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <h3 class="name">Jon Doe</h3>
+          </article>
+          <article class="reviewsSlide">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <h3 class="name">Jon Doe</h3>
+          </article>
+          <article class="reviewsSlide">
+            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+            <h3 class="name">Jon Doe</h3>
+          </article>
+        </div>
+  
+        <div id="rightControllReviews" class="controlls"><img src="./img/arrow_r.svg" alt=">"></div>
+      </div>
+    </section>
+    <!-- #ourteam -->
+    <section id="ourteam">
+      <div class="container">
+        <p class="description">Who we are</p>
+        <h1>Meet our team</h1>
+        <div class="separate"></div>
+        <p class="more-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</p>
+        <div class="teammates">
+          <article class="teamate">
+            <img class="lazyload" alt="" src="img/teamate1.jpg">
+            <div class="foreground"></div>
+          </article>
+          <article class="teamate">
+            <img class="lazyload" src="img/teamate2.jpg" alt="">
+            <div class="foreground"></div>
+          </article>
+          <article class="teamate">
+            <img class="lazyload" src="img/teamate3.jpg" alt="">
+            <div class="foreground"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="gallery">
+      <p class="description">What we do</p>
+      <h1>some of our work</h1>
+      <div class="separate"></div>
+      <p class="more-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br> veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="galleryblock">
+        <div class="double">
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_forum_black_32dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_create_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- /.double -->
+        <div class="double">
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_group_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_shop_two_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- /.double -->
+        <div class="full">
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_shop_two_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+          <!-- /.full -->
+        </div>
+        <div class="double">
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_sms_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <div>
+                <img src="icons/ic_poll_white_36dp.png" alt="">
+                <h2>creatively designed</h2>
+                <p>Lorem ipsum dolor sit</p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <!-- /.double -->
+      </div>
+    </section>
+    <section id="sliderReviews">
+      <div class="container">
+        <div id="leftControllSliderReviews"><img alt="<"></div>
+        <div id="scrollReviews">
+          <article class="reviewsSlide">
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <h2 class="name">Joshua Earle</h2>
+            </div>
+          </article>
+          <article class="reviewsSlide">
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <h2 class="name">Dalton Samson</h2>
+            </div>
+          </article>
+          <article class="reviewsSlide">
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <h2 class="name">Hiks Oliver</h2>
+            </div>
+          </article>
+          <article class="reviewsSlide">
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <h2 class="name">Hit Oliver</h2>
+            </div>
+          </article>
+          <article class="reviewsSlide">
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+              <h2 class="name">Makkenzi Vernon</h2>
+            </div>
+          </article>
+        </div>
+        <div id="rightControllSliderReviews"><img alt=">"></div>
+      </div>
+    </section>
+    <section id="whatPeopleSay">
+      <img data-src="./img/whatPeopleSayBG.jpg" alt="" class="lazyload paralaxImage">
+      <div class="container">
+        <p class="description">Happy Clients</p>
+        <h1>What people say</h1>
+        <div class="separate"></div>
+        <div class="reviewsTable">
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <h2 class="name">Dalton Samson</h2>
+              <p class="work">Graphic Design</p>
+              <div class="separate"></div>
+              <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <h2 class="name">Hiks Oliver</h2>
+              <p class="work">Graphic Design</p>
+              <div class="separate"></div>
+              <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <h2 class="name">Hit Oliver</h2>
+              <p class="work">Graphic Design</p>
+              <div class="separate"></div>
+              <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+          </article>
+          <article>
+            <img class="lazyload" src="img/programmer.jpeg" alt="">
+            <div>
+              <h2 class="name">Makkenzi Vernon</h2>
+              <p class="work">Graphic Design</p>
+              <div class="separate"></div>
+              <p class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="ourstories">
+      <div class="container">
+        <p class="description">Our stories</p>
+        <h1>Latest blog</h1>
+        <div class="separate"></div>
+        <div class="blog">
+          <article>
+            <div class="preview">
+              <img class="lazyload" src="img/programmer.jpeg" alt="">
+              <div class="date">
+                <h2>
+                  15
+                  <span>Jan</span>
+                </h2>
+              </div>
+            </div>
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+            <p class="excerpt">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="separate fullscreen"></div>
+            <div class="info">
+              <div>
+                <img src="icons/ic_stars_black_36dp.png" alt="Переглядів">
+                542
+              </div>
+              <div>
+                <img src="icons/ic_forum_black_36dp.png" alt="Коментарі">
+                41
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="preview">
+              <img class="lazyload" src="img/programmer.jpeg" alt="">
+              <div class="date">
+                <h2>
+                  15
+                  <span>Jan</span>
+                </h2>
+              </div>
+            </div>
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+            <p class="excerpt">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="separate fullscreen"></div>
+            <div class="info">
+              <div>
+                <img src="icons/ic_stars_black_36dp.png" alt="Переглядів">
+                542
+              </div>
+              <div>
+                <img src="icons/ic_forum_black_36dp.png" alt="Коментарі">
+                41
+              </div>
+            </div>
+          </article>
+          <article>
+            <div class="preview">
+              <img class="lazyload" src="img/programmer.jpeg" alt="">
+              <div class="date">
+                <h2>
+                  15
+                  <span>Jan</span>
+                </h2>
+              </div>
+            </div>
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+            <p class="excerpt">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="separate fullscreen"></div>
+            <div class="info">
+              <div>
+                <img src="icons/ic_stars_black_36dp.png" alt="Переглядів">
+                542
+              </div>
+              <div>
+                <img src="icons/ic_forum_black_36dp.png" alt="Коментарі">
+                41
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+    <section id="mapPreview">
+      <img class="lazyload" src="img/programmer.jpeg" alt="">
+      <div>
+        <h2>Open map</h2>
+        <div class="separate"></div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer id="mainfooter">
+      <div class="container">
+        <div class="col main">
+          <h2 class="title">Step Academy</h2>
+          <p class="description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, est!
+          </p>
+          <p class="followers">
+            <span>20k</span>
+            followers
+          </p>
+          <div class="separate fullscreen"></div>
+        <form action="">
+          <input class="empty" name="email" rows="1" value="Your Email...">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    </footer>
+  <script src="js/paralax.min.js"></script>
+  <script src="js/slickJQ.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/lazysizes.min.js"></script>
 </body>
 </html>
